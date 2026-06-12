@@ -1,0 +1,44 @@
+﻿{
+    "generatedAt":  "2026-06-12T16:28:02.2399958+08:00",
+    "result":  "pass",
+    "hardFindings":  [
+
+                     ],
+    "policyOnlyMatches":  [
+                              {
+                                  "file":  "index.html",
+                                  "term":  "姓名",
+                                  "line":  607,
+                                  "context":  "\u003cdiv class=\"public-note\"\u003e本頁為公開審閱版本，保留薪資落點與評估方法，不含姓名、聯絡方式、私有文件連結、內部路徑或可識別個人資料。薪資內容僅作職務規劃參考，實際任用與薪資決策仍需由負責人審閱。\u003c/div\u003e"
+                              },
+                              {
+                                  "file":  "index.html",
+                                  "term":  "私有文件",
+                                  "line":  607,
+                                  "context":  "\u003cdiv class=\"public-note\"\u003e本頁為公開審閱版本，保留薪資落點與評估方法，不含姓名、聯絡方式、私有文件連結、內部路徑或可識別個人資料。薪資內容僅作職務規劃參考，實際任用與薪資決策仍需由負責人審閱。\u003c/div\u003e"
+                              },
+                              {
+                                  "file":  "index.html",
+                                  "term":  "內部路徑",
+                                  "line":  607,
+                                  "context":  "\u003cdiv class=\"public-note\"\u003e本頁為公開審閱版本，保留薪資落點與評估方法，不含姓名、聯絡方式、私有文件連結、內部路徑或可識別個人資料。薪資內容僅作職務規劃參考，實際任用與薪資決策仍需由負責人審閱。\u003c/div\u003e"
+                              },
+                              {
+                                  "file":  "index.html",
+                                  "term":  "銀行",
+                                  "line":  1013,
+                                  "context":  "\u003cli\u003e\u003ca href=\"https://www.104.com.tw/jobs/search/?keyword=%E5%8F%B0%E4%B8%AD%E7%A4%BE%E5%B7%A5\"\u003e104 人力銀行：台中社工職缺\u003c/a\u003e，台中社福職務月薪區間。\u003c/li\u003e"
+                              },
+                              {
+                                  "file":  "index.html",
+                                  "term":  "銀行",
+                                  "line":  1014,
+                                  "context":  "\u003cli\u003e\u003ca href=\"https://www.1111.com.tw/search/job?ks=%E8%A6%AA%E5%AD%90%E9%A4%A8%E7%A4%BE%E5%B7%A5\"\u003e1111 人力銀行：親子館社工/專員職缺\u003c/a\u003e，親子館相關職務月薪區間。\u003c/li\u003e"
+                              }
+                          ],
+    "notes":  [
+                  "Hard scan covers email, Taiwan mobile-like numbers, local Kevin paths, Google private links, common long token shapes, and Taiwan ID-like strings.",
+                  "Policy-only matches are boundary/source wording, not actual private records.",
+                  "Salary values are intentionally retained because the report is a salary-positioning artifact."
+              ]
+}
