@@ -2,6 +2,8 @@
 
 Public noindex review artifact for a de-identified salary positioning and onboarding plan.
 
+Production URL: https://social-welfare-tech-product-special.vercel.app/
+
 ## Public Boundary
 
 - This repository is public and link-accessible.
